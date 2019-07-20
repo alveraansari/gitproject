@@ -1,0 +1,50 @@
+
+<div class="login-reg-panel">
+  <div class="login-info-box">
+    <h2>Have an account?</h2>
+    <p></p>
+    <label id="label-register" for="log-reg-show">Login</label>
+    <input type="radio" name="active-log-panel" id="log-reg-show"  checked="checked">
+  </div>
+            
+  <div class="register-info-box">
+    <h2>Don't have an account?</h2>
+    <p>Resister to start your service</p>
+    <label id="label-login" for="log-login-show"><a [routerLink]="['/signup']">Register</a></label>
+    <input type="radio" name="active-log-panel" id="log-login-show">
+  </div>
+            
+  <div class="white-panel">
+ 
+<div class="wrapper fadeInDown">
+  <div id="formContent">
+    <!-- Tabs Titles -->
+
+    <!-- Icon -->
+    <div class="fadeIn first">
+      <img src="../assets/REPAIR.png" id="icon" alt="User Icon" />
+    </div>
+
+    <!-- Login Form -->
+    <form>
+      <input type="text" id="login" class="fadeIn second" name="login" placeholder="login">
+      <input type="text" id="password" class="fadeIn third" name="login" placeholder="password">
+      <input type="submit" class="fadeIn fourth" value="Log In">
+    </form>
+
+    <!-- Remind Passowrd -->
+    <div id="formFooter">
+      <a class="underlineHover" href="#">Forgot Password?</a>
+    </div>
+
+  </div>
+</div>
+    <div class="register-show">
+      <h2>REGISTER</h2>
+      <input type="text" placeholder="Email">
+      <input type="password" placeholder="Password">
+      <input type="password" placeholder="Confirm Password">
+      <input type="button" value="Register">
+    </div>
+  </div>
+</div>
